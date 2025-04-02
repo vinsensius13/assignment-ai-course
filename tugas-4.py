@@ -9,7 +9,7 @@ umur = int(input("Masukkan umur Anda: "))
 print(f"Halo, {nama}! Tahun depan kamu berumur {umur + 1} tahun.")
 
 # 4. List nama mahasiswa
-mahasiswa = ["Siti", "Budi", "Andi", "Rina", "Dika"]
+mahasiswa = ["Nanda", "Hana", "Nabilah", "Vinsensius", "Dika"]
 
 print("\nDaftar nama mahasiswa:")
 for i, mhs in enumerate(mahasiswa, start=1):
@@ -17,9 +17,9 @@ for i, mhs in enumerate(mahasiswa, start=1):
 
 # 5. Mengecek apakah Budi ada di list
 if "Budi" in mahasiswa:
-    print("\nBudi ada dalam daftar mahasiswa.")
+    print("\nVinsensius ada dalam daftar mahasiswa.")
 else:
-    print("\nBudi tidak ada dalam daftar mahasiswa.")
+    print("\nVinsensius tidak ada dalam daftar mahasiswa.")
     
 # Tambahan: cek apakah nama yang diinput pengguna ada di list
 if nama.title() in mahasiswa:
@@ -29,10 +29,10 @@ else:
 
 # 6. Dictionary data mahasiswa
 data_mahasiswa = {
-    "220101": "Siti",
-    "220102": "Budi",
-    "220103": "Andi",
-    "220104": "Rina",
+    "220101": "Nanda",
+    "220102": "Hana",
+    "220103": "Nabilah",
+    "220104": "Vinsensius",
     "220105": "Dika"
 }
 

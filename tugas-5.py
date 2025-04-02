@@ -22,8 +22,8 @@ class Mahasiswa:
 
 # Program utama
 if __name__ == "__main__":
-    mhs1 = Mahasiswa("Budi", "220101", [80, 85, 90])
-    mhs2 = Mahasiswa("Siti", "220102", [75, 80, 70])
+    mhs1 = Mahasiswa("Dika", "220101", [80, 85, 90])
+    mhs2 = Mahasiswa("Nanda", "220102", [75, 80, 70])
 
     mhs1.tampilkan_info()
     mhs2.tampilkan_info()
